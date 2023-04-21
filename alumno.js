@@ -8,7 +8,7 @@ export class Alumno
 
     mostrar()
     {
-        console.log(`
+        console.log(`Alumno:
         Usuario: ${this.username}
         DNI: ${this.DNI}`);
     }

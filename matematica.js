@@ -1,4 +1,4 @@
-export const PI = 3.14;
+export const PI = 3.14159265359;
 
 export const promediar = (num1, num2) => (num1+num2)/2;
 
