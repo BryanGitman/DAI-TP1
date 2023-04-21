@@ -9,5 +9,9 @@
     "start": "node index.js"
   },
   "author": "Bryan Gitman y Matias Zalcman",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mssql": "^9.1.1"
+  }
 }

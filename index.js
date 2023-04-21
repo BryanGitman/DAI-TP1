@@ -2,6 +2,7 @@ import {EJ01} from './inversion.js';
 import {PI, promediar, encontrarHipotenusa, hacerResolvente, resolverLogaritmo} from './matematica.js';
 import {Alumno} from './alumno.js';
 import {copiar} from './filerw.js';
+import {PizzaService} from './pizzas-services.js';
 
 EJ01();
 
@@ -17,3 +18,5 @@ alumno1.mostrar();
 alumno2.mostrar();
 
 copiar("./entrada.txt", "./salida.txt");
+const ps = new PizzaService()
+console.log(ps.getById(3));
