@@ -18,5 +18,6 @@ alumno1.mostrar();
 alumno2.mostrar();
 
 copiar("./entrada.txt", "./salida.txt");
+
 const ps = new PizzaService()
-console.log(ps.getById(3));
+console.log(await ps.getById(3));
